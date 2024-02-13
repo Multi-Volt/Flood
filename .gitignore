@@ -1,3 +1,4 @@
 FLOOD-MCU/.pio
 FLOOD-MCU/.test
 Flood.code-workspace
+.gitignore
