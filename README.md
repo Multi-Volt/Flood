@@ -116,6 +116,6 @@ This project currently uses a compiled Datalogger from a previous research proje
 TBA
 
 # License
-The MIT License (MIT) 2024 - [Dr. John LaRocco](https://github.com/javeharron/),[Dr. Qudsia Tahmina](https://github.com/tahminaq), [John Simonis](https://github.com/Multi-Volt/). Please have a look at the [LICENSE.md](LICENSE) for more details.
+The MIT License (MIT) 2024 - [Dr. John LaRocco](https://github.com/javeharron/), [Dr. Qudsia Tahmina](https://github.com/tahminaq), [John Simonis](https://github.com/Multi-Volt/). Please have a look at the [LICENSE.md](LICENSE) for more details.
 
 [(Back to top)](#table-of-contents)
