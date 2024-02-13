@@ -95,7 +95,7 @@ For wiring and electronics please refer to the [FLOOD-Schematics](https://github
 [(Back to top)](#table-of-contents)
 
 ## Data
-Currently Placeholder
+TBA
 
 ## Datalogger
 This project currently uses a compiled Datalogger from a previous research project from this team. Currently, this binary is only compiled for Windows systems and is present within the [FLOOD-Datalogger](https://github.com/Multi-Volt/Flood/tree/main/FLOOD-Datalogger) folder.
