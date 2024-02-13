@@ -89,7 +89,7 @@ The final prototype is an evolution of Prototype-2, the design is largely the sa
   8. Carefully attach each brass nut using four M4 bolts and then thread the lead screw partially through the anchor.
   9. Mechanical assembly complete, see wiring diagram referenced below.
 ### Wiring
-For wiring and electronics please refer to the [FLOOD-Schematics](https://github.com/Multi-Volt/Flood/tree/main/FLOOD-Schematics) folder.
+For wiring and electronics please refer to the [FLOOD-Schematics](https://github.com/Multi-Volt/Flood/tree/main/FLOOD-Schematics) folder (currently under revision).
 
 
 [(Back to top)](#table-of-contents)
