@@ -78,7 +78,16 @@ Currently, all 3D models for this project can be found within the [FLOOD-3DF](ht
   8. Carefully attach each brass nut using four M4 bolts and then thread the lead screw partially through the anchor.
   9. Mechanical assembly complete, see wiring diagram referenced below.
 ### Prototype-Final
-TBA
+The final prototype is an evolution of Prototype-2, the design is largely the same with stronger reinforcements at the base while maintaining the spirit and almost exact construction of the original design.
+1. Download the Anchor_Final.STL, Motor_Bracket_Final.STL, Track_Final.STL and Carriage_Final.STL files from the Prototype-Final directory.
+  2. Import these models into an FDM 3D-Printer slicer such as [Cura]( https://ultimaker.com/software/ultimaker-cura/) and choose a material profile for PLA.
+  3. Slice this model with 100% infill, no supports, and a Layer Height of 0.16mm or lower.
+  4. Find a flat surface to mount the anchor and motor mount to, something like plywood would be ideal, and measure out a gap of 75mm between each part.
+  5. Using the printed holes as guides, drill out four blind 4mm holes on each side of the 80mm gap.
+  6. Attach the anchor point using two M4 bolts and nuts then place the motor in the clamp parallel to the anchor on the other side of the gap and fix it in place using two more M4 bolts and nuts.
+  7. Now that these items are attached to the surface slide the carriage onto the tracks and slide the tracks into the slots on each model.
+  8. Carefully attach each brass nut using four M4 bolts and then thread the lead screw partially through the anchor.
+  9. Mechanical assembly complete, see wiring diagram referenced below.
 ### Wiring
 For wiring and electronics please refer to the [FLOOD-Schematics](https://github.com/Multi-Volt/Flood/tree/main/FLOOD-Schematics) folder.
 
