@@ -112,4 +112,4 @@ TBA
   
   
 
-The MIT License (MIT) 2024 - [Dr. John Larocco](https://github.com/javeharron/),[Dr. Qudsia Tahmina](https://github.com/tahminaq), [John Simonis](https://github.com/Multi-Volt/). Please have a look at the [LICENSE.md](LICENSE) for more details.
+The MIT License (MIT) 2024 - [Dr. John LaRocco](https://github.com/javeharron/),[Dr. Qudsia Tahmina](https://github.com/tahminaq), [John Simonis](https://github.com/Multi-Volt/). Please have a look at the [LICENSE.md](LICENSE) for more details.
