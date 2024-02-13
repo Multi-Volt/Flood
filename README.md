@@ -38,7 +38,7 @@ Currently migrating from [here](https://github.com/Multi-Volt/Elasto-cool)
   
 
 ## <a id ="models"></a>Models & Construction
-Currently, all 3D models for this project can be found within the [FLOOD-3DF](https://github.com/Multi-Volt/Flood/tree/main/FLOOD-3DF) folder. This folder currently contains all parts for:
+Currently, all 3D models for this project can be found within the [FLOOD-3DF](https://github.com/Multi-Volt/Flood/tree/main/FLOOD-3DF) folder. This folder currently contains directories for:
 - Final NiTi Prototype
 - Initial Prototypes
 - Control Harvester
