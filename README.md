@@ -73,7 +73,7 @@ Currently, all 3D models for this project can be found within the [FLOOD-3DF](ht
 1. Download the Anchor_2.STL, Motor_Bracket_2.STL, Track_2.STL and Carriage_2.STL files from the Prototype-2 directory.
   2. Import these models into an FDM 3D-Printer slicer such as [Cura]( https://ultimaker.com/software/ultimaker-cura/) and choose a material profile for PLA.
   3. Slice this model with 100% infill, no supports, and a Layer Height of 0.16mm or lower.
-  4. Find a flat surface to mount the anchor and motor mount to, something like plywood would be ideal, and measure out a gap of 75mm between each part.
+  4. Find a flat surface to mount the anchor and motor mount to, something like plywood would be ideal, and measure out a gap of 80mm between each part.
   5. Using the printed holes as guides, drill out four blind 4mm holes on each side of the 80mm gap.
   6. Attach the anchor point using two M4 bolts and nuts then place the motor in the clamp parallel to the anchor on the other side of the gap and fix it in place using two more M4 bolts and nuts.
   7. Now that these items are attached to the surface slide the carriage onto the tracks and slide the tracks into the slots on each model.
@@ -84,7 +84,7 @@ The final prototype is an evolution of Prototype-2, the design is largely the sa
 1. Download the Anchor_Final.STL, Motor_Bracket_Final.STL, Track_Final.STL and Carriage_Final.STL files from the Prototype-Final directory.
   2. Import these models into an FDM 3D-Printer slicer such as [Cura]( https://ultimaker.com/software/ultimaker-cura/) and choose a material profile for PLA.
   3. Slice this model with 100% infill, no supports, and a Layer Height of 0.16mm or lower.
-  4. Find a flat surface to mount the anchor and motor mount to, something like plywood would be ideal, and measure out a gap of 75mm between each part.
+  4. Find a flat surface to mount the anchor and motor mount to, something like plywood would be ideal, and measure out a gap of 80mm between each part.
   5. Using the printed holes as guides, drill out four blind 4mm holes on each side of the 80mm gap.
   6. Attach the anchor point using two M4 bolts and nuts then place the motor in the clamp parallel to the anchor on the other side of the gap and fix it in place using two more M4 bolts and nuts.
   7. Now that these items are attached to the surface slide the carriage onto the tracks and slide the tracks into the slots on each model.
