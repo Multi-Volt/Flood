@@ -55,7 +55,7 @@ Currently, all 3D models for this project can be found within the [FLOOD-3DF](ht
   7. On the side outside of the jar, add a small 20x20mm fan on top of the heat sink.
   8. Using the 2-part epoxy, use small amounts of the mixture at each connection point to hold the Peltier device in place. 
   9. Assembly is now complete, test with a standard power supply with a minimum of 9V 1A.
- #### Prototype-1
+ #### Prototype-1 (Cam)
  Prototype-1 is a now deprecated design that utilized a cam holding multiple ends of NiTi wires against a fixed anchor. This cam was attached to a high-torque DC motor using a set screw and would continuously load and unload several NiTi wires. This prototype struggled consistently in preliminary testing compared to Prototype-2 at handling the engineering stresses and thus was predominately scrapped. To assemble this device the instructions are as follows:
 1. Download the Cam_1.STL, Anchor_1.STL, Motor_Bracket_1.STL and Cam_Arm_1.STL files from the Prototype-1 directory.
   2. Import these models into an FDM 3D-Printer slicer such as [Cura]( https://ultimaker.com/software/ultimaker-cura/) and choose a material profile for PLA.
@@ -68,20 +68,9 @@ Currently, all 3D models for this project can be found within the [FLOOD-3DF](ht
   9. Thread the NiTi wire through each hole and measure out a set distance where the wires are under firm tension.
   10. Create multiple sections of wire of this same measurement and fix each end into the cable that stays at the anchor and cam.
   11. Assembly is now complete, run the motor with a power supply and adjust the speed to a steady cycle using the included ESC. 
- #### Prototype-2
+ #### Prototype-2 (Gantry)
  Prototype-2 beat out Prototype-1 in the preliminary testing phase of this project due to its ability to withstand greater engineering stresses. This design utilizes a standard CNC Tr8x8 Lead Screw with two brass nuts to load and unload the NiTi wires. This also adds a driving circuit to the aforementioned DC motor to reverse the rotation when needed. This design is more predominantly featured within the final prototype.
 1. Download the Anchor_2.STL, Motor_Bracket_2.STL, Track_2.STL and Carriage_2.STL files from the Prototype-2 directory.
-  2. Import these models into an FDM 3D-Printer slicer such as [Cura]( https://ultimaker.com/software/ultimaker-cura/) and choose a material profile for PLA.
-  3. Slice this model with 100% infill, no supports, and a Layer Height of 0.16mm or lower.
-  4. Find a flat surface to mount the anchor and motor mount to, something like plywood would be ideal, and measure out a gap of 80mm between each part.
-  5. Using the printed holes as guides, drill out four blind 4mm holes on each side of the 80mm gap.
-  6. Attach the anchor point using two M4 bolts and nuts then place the motor in the clamp parallel to the anchor on the other side of the gap and fix it in place using two more M4 bolts and nuts.
-  7. Now that these items are attached to the surface slide the carriage onto the tracks and slide the tracks into the slots on each model.
-  8. Carefully attach each brass nut using four M4 bolts and then thread the lead screw partially through the anchor.
-  9. Mechanical assembly complete, see wiring diagram referenced below.
-#### Prototype-Final
-The final prototype is an evolution of Prototype-2, the design is largely the same with stronger reinforcements at the base while maintaining the spirit and almost exact construction of the original design.
-1. Download the Anchor_Final.STL, Motor_Bracket_Final.STL, Track_Final.STL and Carriage_Final.STL files from the Prototype-Final directory.
   2. Import these models into an FDM 3D-Printer slicer such as [Cura]( https://ultimaker.com/software/ultimaker-cura/) and choose a material profile for PLA.
   3. Slice this model with 100% infill, no supports, and a Layer Height of 0.16mm or lower.
   4. Find a flat surface to mount the anchor and motor mount to, something like plywood would be ideal, and measure out a gap of 80mm between each part.
