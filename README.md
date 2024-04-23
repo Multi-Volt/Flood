@@ -73,6 +73,7 @@ This project currently uses a compiled Datalogger from a previous research proje
 [(Back to top)](#table-of-contents)
 ## Testing
 **Project Testing Procedure**
+
 The testing procedure for this project was executed with a straightforward approach. The following steps were undertaken:
 - **Placement of Assemblies**: Both the prototype and control assemblies were positioned within an enclosure equipped with a continuously operating humidifier.
 - **Data Collection**: Data was systematically collected at regular intervals of 10 seconds. Measurements, such as current, were averaged over this time frame.
@@ -86,6 +87,7 @@ This methodical approach ensured a comprehensive evaluation of the project compo
 TBA
 ## Flood MCU
 **Instructions for Opening and Building MCU Code**
+
 1. **Install Visual Studio Code (VS Code)**: Ensure that you have VS Code installed on your system as per the prerequisites mentioned earlier.
 2. **Install Platform IO**: After successfully installing VS Code, proceed to install Platform IO.
 3. **Download the Platform IO Directory**: Once Platform IO is installed, download the Platform IO directory from the [FLOOD-MCU](https://github.com/Multi-Volt/Flood/tree/main/FLOOD-MCU) folder.
