@@ -18,6 +18,7 @@ This is a research project conducted by __Dr. John Larocco__, __Dr. Qudsia Tahmi
 - [Models & Construction](#models)
 - [Data](#data)
 - [Datalogger](#datalogger)
+- [Testing](#testing)
 - [Flood Extras](#flood-extras)
 - [Flood MCU](#flood-mcu)
 - [Flood Photos](#flood-photos)
@@ -52,7 +53,7 @@ For wiring and electronics please refer to the [FLOOD-Schematics](https://github
 Currently, all data for this project can be found within the [FLOOD-Data](https://github.com/Multi-Volt/Flood/tree/main/FLOOD-Data) folder. This folder currently contains:
 - Control (XLSX)
 - Prototype (XLSX)
-- Analysis (Jupyter Notebook)
+- Analysis ([Jupyter Notebook](https://jupyter.org/))
 ### Control Equation
 ```math
 0.178 x + erf{\left(\cos{\left(0.0457 x + 0.283 \sin{\left(0.886 x + 0.886 erf{\left(\sin{\left(\sin{\left(x \right)} - 0.419 \right)} \right)} \right)} + 0.157 \cos{\left(x - 3.46 \right)} \right)} \right)} - 0.337
@@ -61,6 +62,10 @@ Currently, all data for this project can be found within the [FLOOD-Data](https:
 [(Back to top)](#table-of-contents)
 ## Datalogger
 This project currently uses a compiled Datalogger from a previous research project from this team. Currently, this binary is only compiled for Windows systems and is present within the [FLOOD-Datalogger](https://github.com/Multi-Volt/Flood/tree/main/FLOOD-Datalogger) folder.
+
+[(Back to top)](#table-of-contents)
+## Testing
+The testing for this project was relatively simple. Both the prototype and control assemblies were placed within an enclosure that contained a constantly running humidifier. Data was collected with a periodicity of 10 seconds with measurements like current being averaged during this time frame. This was done in order to mitigate noise and outliers. Three tests for both the control and the prototype were conducted over a total time of 30 minutes. 
 
 [(Back to top)](#table-of-contents)
 ## Flood Extras
