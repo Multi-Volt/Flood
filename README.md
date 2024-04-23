@@ -25,10 +25,10 @@ This research endeavor, spearheaded by __Dr. John LaRocco__, __Dr. Qudsia Tahmin
 - [Flood Photos](#flood-photos)
 - [License](#license)
 ## <a  id ="models"></a>Models & Construction
-Currently, all 3D models for this project can be found within the [FLOOD-3DF](https://github.com/Multi-Volt/Flood/tree/main/FLOOD-3DF) folder. This folder currently contains directories for:
-- Final Prototype (STEP and STL)
-- Control Harvester (STEP and STL)
-- Deprecated Designs (STL)
+For this project, all pertinent 3D models are housed in the [FLOOD-3DF](https://github.com/Multi-Volt/Flood/tree/main/FLOOD-3DF) directory. This directory is organized into the following sub-directories for ease of navigation and access:
+1. **Protot**: This contains both STEP and STL files of the final prototype.
+2. **Control**: This includes the STEP and STL files for the Control Harvester.
+3. **Deprecated**: This houses the STL files of designs that are no longer in use.
 ### Details
 #### Control
 **Control Water Harvester Assembly Overview and Instructions**
