@@ -55,7 +55,7 @@ Currently, all data for this project can be found within the [FLOOD-Data](https:
 - Analysis (Jupyter Notebook)
 ### Control Equation
 ```math
-0.178 x_{0} + \operatorname{erf}{\left(\cos{\left(0.0457 x_{0} + 0.283 \sin{\left(0.886 x_{0} + 0.886 \operatorname{erf}{\left(\sin{\left(\sin{\left(x_{0} \right)} - 0.419 \right)} \right)} \right)} + 0.157 \cos{\left(x_{0} - 3.46 \right)} \right)} \right)} - 0.337
+0.178 x_{0} + \erf{\left(\cos{\left(0.0457 x_{0} + 0.283 \sin{\left(0.886 x_{0} + 0.886 \operatorname{erf}{\left(\sin{\left(\sin{\left(x_{0} \right)} - 0.419 \right)} \right)} \right)} + 0.157 \cos{\left(x_{0} - 3.46 \right)} \right)} \right)} - 0.337
 ```
 
 [(Back to top)](#table-of-contents)
