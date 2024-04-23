@@ -16,7 +16,7 @@ void setup() {
   Serial.begin(9600);
   Wire.begin();
   float _offset = ACS712.autoCalibrate();
-  last_moisture = analogRead(A2)
+  last_moisture = analogRead(A2);
 }
 
 void loop() { 
@@ -27,7 +27,7 @@ void loop() {
     last_moisture = comparative_moisture;
   }
   if (millis() >= time1){ 
-    Serial.println(String(curavg)) +","+String(comparative_moisture)+","+String(analogRead(A3)) + String(curavg/10*0.00277778*24)+","+String(aht20.getTemperature())+","+String(aht20.getHumidity()));
+    Serial.println(String(curavg) +","+String(comparative_moisture)+","+String(analogRead(A3)) + String(curavg/10*0.00277778*24)+","+String(aht20.getTemperature())+","+String(aht20.getHumidity()));
     lastmillis1 = millis();
     curavg = 0;
   }
