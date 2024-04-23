@@ -10,6 +10,7 @@ This is a research project conducted by __Dr. John Larocco__, __Dr. Qudsia Tahmi
 - [Git](https://git-scm.com/downloads)
 - [Arduino IDE](https://www.arduino.cc/en/software)
 - [PySR](https://github.com/MilesCranmer/PySR)
+- Slicer | [PrusaSlicer]( https://www.prusa3d.com/en/page/prusaslicer_424/)
 ### Hardware
 - [FLOOD-BOM](https://github.com/Multi-Volt/Flood/tree/main/FLOOD-BOM/)
 - 3D-Printer
@@ -30,21 +31,25 @@ Currently, all 3D models for this project can be found within the [FLOOD-3DF](ht
 - Deprecated Designs (STL)
 ### Details
 #### Control
-Control is the control water harvester which utilizes a desiccant wheel design. This also leverages a heat lamp  which draws a high amount of current to dry out pockets of desiccant. This design also has a fan which works to circulate some of the heated air through the silica gel desiccant. The assembly instructions are as follows:
-1. Download the STL files from the respective directory and the .3MF file if you intend to print the design on a standard Ender 3 PRO. 
-2. Import this model or slicer file into an FDM 3D-Printer slicer such as [PrusaSlicer]( https://www.prusa3d.com/en/page/prusaslicer_424/) and choose a material profile for PETG (This is needed for the higher temperatures).
-3. Setup a print with 1 wheel base and 8 wheel rungs. Make sure the slicing settings include 100% infill, supports everywhere, and a layer height of 0.16mm or lower.
-4. Snap each of the rungs into the wheel base and fasten each with some M5 bolts and nuts such as the ones present in the BOM.
-5. Assembly is now complete, test with a lab power supply and make sure to have fans and a heating device ready.
+**Control Water Harvester Assembly Overview and Instructions**
+The Control Water Harvester utilizes a desiccant wheel design, leveraging a heat lamp to dry out pockets of desiccant and a fan to circulate heated air through the silica gel desiccant. The assembly process is as follows:
+1. **File Download**: Retrieve the STL files from [FLOOD-3DF](https://github.com/Multi-Volt/Flood/tree/main/FLOOD-3DF) and the .3MF file if you plan to print the design on a standard Ender 3 PRO.
+2. **Model Import**: Import the model or .3MF into an FDM 3D-Printer slicer such as [PrusaSlicer]( https://www.prusa3d.com/en/page/prusaslicer_424/) and select a material profile for PETG, which is necessary for higher temperatures.
+3. **Print Setup**: Configure a print with one wheel base and eight wheel rungs. Ensure the slicing settings include 100% infill, supports everywhere, and a layer height of 0.16mm or lower. Refer to the .3MF file for printing orientations
+4. **Assembly**: Connect each of the rungs to the wheel base and secure each with M5 bolts and nuts, as specified in the Bill of Materials (BOM).
+5. **Testing**: Upon completion of assembly, conduct a test using a lab power supply. Ensure the availability of fans and a heating device.
 #### Prototype
-The NiTi prototype utilizes a simple gantry system with a high torque stepper motor. Additionally a T8 leadscrew is used for simplistic mechanical advantage to apply stress to the NiTi wires.
-1. Download the STL files from the respective directory and the .3MF file if you intend to print the design on a standard Ender 3 PRO.
-2. Import this model or slicer file into an FDM 3D-Printer slicer such as [PrusaSlicer]( https://www.prusa3d.com/en/page/prusaslicer_424/) and choose a material profile for PETG (This is needed for the higher temperatures).
-3. Setup a print with 1 of each part with the exception of the anchors which you should print 2 of each. Make sure the slicing settings include 100% infill, supports everywhere, and a layer height of 0.16mm or lower.
-4. Utilizing the dimensions of most of the nut pockets, find fitting metric nuts.
-5. Fasten each of the items in accordance with the provided render.
-6. Additionally make sure to use the proper metric T-nuts for fastening to the supplied gantry
-9. Mechanical assembly complete, see wiring diagram referenced below and be ready to test. You will have to either develop your own code for controlling the motors or use the open source [GRBL](https://github.com/gnea/grbl) firmware.
+**NiTi Prototype Assembly Instructions**
+The NiTi prototype employs a straightforward gantry system, powered by a high torque stepper motor. A T8 leadscrew is incorporated for a simple mechanical advantage to apply stress to the NiTi wires. The assembly process is as follows:
+1. **File Download**: Retrieve the STL files from [FLOOD-3DF](https://github.com/Multi-Volt/Flood/tree/main/FLOOD-3DF) and the .3MF file if you plan to print the design on a standard Ender 3 PRO.
+2. **Model Import**: Import the model or .3MF into an FDM 3D-Printer slicer such as [PrusaSlicer]( https://www.prusa3d.com/en/page/prusaslicer_424/). Select a material profile for PETG, which is necessary for higher temperatures.
+3. **Print Setup**: Configure a print with one of each part, except for the anchors, of which you should print two. Ensure the slicing settings include 100% infill, supports everywhere, and a layer height of 0.16mm or lower. Refer to the .3MF file for printing orientations
+4. **Nut Selection**: Based on the dimensions of most of the nut pockets, identify suitable metric nuts.
+5. **Assembly**: Secure each of the items in accordance with the provided render.
+6. **Gantry Fastening**: Ensure the use of the appropriate metric T-nuts for fastening to the supplied gantry.
+7. **Testing**: Upon completion of the mechanical assembly, refer to the wiring diagram provided below and prepare for testing. You will need to either develop your own code for controlling the motors or utilize the open-source [GRBL](https://github.com/grbl/grbl) firmware.
+
+[(Back to top)](#table-of-contents)
 ### Wiring
 For wiring and electronics please refer to the [FLOOD-Schematics](https://github.com/Multi-Volt/Flood/tree/main/FLOOD-Schematics) folder (currently under revision).
 
