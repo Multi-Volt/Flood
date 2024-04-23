@@ -65,7 +65,14 @@ This project currently uses a compiled Datalogger from a previous research proje
 
 [(Back to top)](#table-of-contents)
 ## Testing
-The testing for this project was relatively simple. Both the prototype and control assemblies were placed within an enclosure that contained a constantly running humidifier. Data was collected with a periodicity of 10 seconds with measurements like current being averaged during this time frame. This was done in order to mitigate noise and outliers. Three tests for both the control and the prototype were conducted over a total time of 30 minutes. 
+**Project Testing Procedure**
+The testing procedure for this project was executed with a straightforward approach. The following steps were undertaken:
+- **Placement of Assemblies**: Both the prototype and control assemblies were positioned within an enclosure equipped with a continuously operating humidifier.
+- **Data Collection**: Data was systematically collected at regular intervals of 10 seconds. Measurements, such as current, were averaged over this time frame.
+- **Noise and Outlier Mitigation**: The averaging of measurements over the specified time frame was implemented to effectively mitigate the impact of noise and potential outliers.
+- **Execution of Tests**: A total of three tests were conducted for both the control and the prototype assemblies.
+- **Duration of Tests**: The entire testing procedure was carried out over a cumulative duration of 30 minutes.
+This methodical approach ensured a comprehensive evaluation of the project components under the specified conditions.
 
 [(Back to top)](#table-of-contents)
 ## Flood Extras
