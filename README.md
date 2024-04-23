@@ -32,6 +32,7 @@ For this project, all pertinent 3D models are housed in the [FLOOD-3DF](https://
 ### Details
 #### Control
 **Control Water Harvester Assembly Overview and Instructions**
+
 The Control Water Harvester utilizes a desiccant wheel design, leveraging a heat lamp to dry out pockets of desiccant and a fan to circulate heated air through the silica gel desiccant. The assembly process is as follows:
 1. **File Download**: Retrieve the STL files from [FLOOD-3DF](https://github.com/Multi-Volt/Flood/tree/main/FLOOD-3DF) and the .3MF file if you plan to print the design on a standard Ender 3 PRO.
 2. **Model Import**: Import the model or .3MF into an FDM 3D-Printer slicer such as [PrusaSlicer]( https://www.prusa3d.com/en/page/prusaslicer_424/) and select a material profile for PETG, which is necessary for higher temperatures.
@@ -40,6 +41,7 @@ The Control Water Harvester utilizes a desiccant wheel design, leveraging a heat
 5. **Testing**: Upon completion of assembly, conduct a test using a lab power supply. Ensure the availability of fans and a heating device.
 #### Prototype
 **NiTi Prototype Assembly Instructions**
+
 The NiTi prototype employs a straightforward gantry system, powered by a high torque stepper motor. A T8 leadscrew is incorporated for a simple mechanical advantage to apply stress to the NiTi wires. The assembly process is as follows:
 1. **File Download**: Retrieve the STL files from [FLOOD-3DF](https://github.com/Multi-Volt/Flood/tree/main/FLOOD-3DF) and the .3MF file if you plan to print the design on a standard Ender 3 PRO.
 2. **Model Import**: Import the model or .3MF into an FDM 3D-Printer slicer such as [PrusaSlicer]( https://www.prusa3d.com/en/page/prusaslicer_424/). Select a material profile for PETG, which is necessary for higher temperatures.
