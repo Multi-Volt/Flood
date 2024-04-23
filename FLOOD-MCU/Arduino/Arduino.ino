@@ -8,21 +8,26 @@ unsigned long time1;
 unsigned long time2;
 unsigned long lastmillis1 = 0;
 unsigned long lastmillis2 = 0;
+unsigned long comparative_moisture = 0;
+unsigned long last_moisture = 0;
 float curavg = 0;
 ACS712XX ACS712(ACS712_30A,A0);
 void setup() {
   Serial.begin(9600);
   Wire.begin();
   float _offset = ACS712.autoCalibrate();
+  last_moisture = analogRead(A2)
 }
 
 void loop() { 
   time1 = (lastmillis1 + period1);
   time2 = (lastmillis2 + period2);
+  if (analogRead(A2)>last_moisture){
+    comparative_moisture = analogRead(A2);
+    last_moisture = comparative_moisture;
+  }
   if (millis() >= time1){ 
-    Serial.print(ACS712.getDC());
-    Serial.print(F(" A,"));
-    Serial.print(String(analogRead(A1)) +","+String(analogRead(A2))+","+String(curavg/10*0.00277778*24)+","+String(aht20.getTemperature())+","+String(aht20.getHumidity()));
+    Serial.println(String(curavg)) +","+String(comparative_moisture)+","+String(analogRead(A3)) + String(curavg/10*0.00277778*24)+","+String(aht20.getTemperature())+","+String(aht20.getHumidity()));
     lastmillis1 = millis();
     curavg = 0;
   }
