@@ -36,16 +36,14 @@ Control is the control water harvester which utilizes a desiccant wheel design. 
 4. Snap each of the rungs into the wheel base and fasten each with some M5 bolts and nuts such as the ones present in the BOM.
 5. Assembly is now complete, test with a lab power supply and make sure to have fans and a heating device ready.
 #### Prototype
-Prototype-2 beat out Prototype-1 in the preliminary testing phase of this project due to its ability to withstand greater engineering stresses. This design utilizes a standard CNC Tr8x8 Lead Screw with two brass nuts to load and unload the NiTi wires. This also adds a driving circuit to the aforementioned DC motor to reverse the rotation when needed. This design is more predominantly featured within the final prototype.
-1. Download the Anchor_2.STL, Motor_Bracket_2.STL, Track_2.STL and Carriage_2.STL files from the Prototype-2 directory.
-2. Import these models into an FDM 3D-Printer slicer such as [Cura]( https://ultimaker.com/software/ultimaker-cura/) and choose a material profile for PLA.
-3. Slice this model with 100% infill, no supports, and a Layer Height of 0.16mm or lower.
-4. Find a flat surface to mount the anchor and motor mount to, something like plywood would be ideal, and measure out a gap of 80mm between each part.
-5. Using the printed holes as guides, drill out four blind 4mm holes on each side of the 80mm gap.
-6. Attach the anchor point using two M4 bolts and nuts then place the motor in the clamp parallel to the anchor on the other side of the gap and fix it in place using two more M4 bolts and nuts.
-7. Now that these items are attached to the surface slide the carriage onto the tracks and slide the tracks into the slots on each model.
-8. Carefully attach each brass nut using four M4 bolts and then thread the lead screw partially through the anchor.
-9. Mechanical assembly complete, see wiring diagram referenced below.
+The NiTi prototype utilizes a simple gantry system with a high torque stepper motor. Additionally a T8 leadscrew is used for simplistic mechanical advantage to apply stress to the NiTi wires.
+1. Download the STL files from the respective directory and the .3MF file if you intend to print the design on a standard Ender 3 PRO.
+2. Import this model or slicer file into an FDM 3D-Printer slicer such as [PrusaSlicer]( https://www.prusa3d.com/en/page/prusaslicer_424/) and choose a material profile for PETG (This is needed for the higher temperatures).
+3. Setup a print with 1 of each part with the exception of the anchors which you should print 2 of each. Make sure the slicing settings include 100% infill, supports everywhere, and a layer height of 0.16mm or lower.
+4. Utilizing the dimensions of most of the nut pockets, find fitting metric nuts.
+5. Fasten each of the items in accordance with the provided render.
+6. Additionally make sure to use the proper metric T-nuts for fastening to the supplied gantry
+9. Mechanical assembly complete, see wiring diagram referenced below and be ready to test. You will have to either develop your own code for controlling the motors or use the open source [GRBL](https://github.com/gnea/grbl) firmware.
 ### Wiring
 For wiring and electronics please refer to the [FLOOD-Schematics](https://github.com/Multi-Volt/Flood/tree/main/FLOOD-Schematics) folder (currently under revision).
 
