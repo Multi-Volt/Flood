@@ -53,6 +53,9 @@ Currently, all data for this project can be found within the [FLOOD-Data](https:
 - Control (XLSX)
 - Prototype (XLSX)
 - Analysis (Jupyter Notebook)
+### Control Equation
+$$0.178 x_{0} + \operatorname{erf}{\left(\cos{\left(0.0457 x_{0} + 0.283 \sin{\left(0.886 x_{0} + 0.886 \operatorname{erf}{\left(\sin{\left(\sin{\left(x_{0} \right)} - 0.419 \right)} \right)} \right)} + 0.157 \cos{\left(x_{0} - 3.46 \right)} \right)} \right)} - 0.337$$
+
 [(Back to top)](#table-of-contents)
 ## Datalogger
 This project currently uses a compiled Datalogger from a previous research project from this team. Currently, this binary is only compiled for Windows systems and is present within the [FLOOD-Datalogger](https://github.com/Multi-Volt/Flood/tree/main/FLOOD-Datalogger) folder.
