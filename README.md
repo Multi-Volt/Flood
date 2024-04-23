@@ -9,6 +9,7 @@ This is a research project conducted by __Dr. John Larocco__, __Dr. Qudsia Tahmi
 - [Platform IO](https://platformio.org/)
 - [Git](https://git-scm.com/downloads)
 - [Arduino IDE](https://www.arduino.cc/en/software)
+- [PySR](https://github.com/MilesCranmer/PySR)
 ### Hardware
 - [FLOOD-BOM](https://github.com/Multi-Volt/Flood/tree/main/FLOOD-BOM/)
 - 3D-Printer
@@ -54,7 +55,6 @@ Currently, all data for this project can be found within the [FLOOD-Data](https:
 - Control (XLSX)
 - Prototype (XLSX)
 - Analysis (Jupyter Notebook)
-- 
 [(Back to top)](#table-of-contents)
 ## Datalogger
 This project currently uses a compiled Datalogger from a previous research project from this team. Currently, this binary is only compiled for Windows systems and is present within the [FLOOD-Datalogger](https://github.com/Multi-Volt/Flood/tree/main/FLOOD-Datalogger) folder.
