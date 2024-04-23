@@ -30,7 +30,6 @@ For this project, all pertinent 3D models are housed in the [FLOOD-3DF](https://
 2. **Control**: This includes the STEP and STL files for the Control Harvester.
 3. **Deprecated**: This houses the STL files of designs that are no longer in use.
 ### Details
-#### Control
 **Control Water Harvester Assembly Overview and Instructions**
 
 The Control Water Harvester utilizes a desiccant wheel design, leveraging a heat lamp to dry out pockets of desiccant and a fan to circulate heated air through the silica gel desiccant. The assembly process is as follows:
@@ -39,7 +38,6 @@ The Control Water Harvester utilizes a desiccant wheel design, leveraging a heat
 3. **Print Setup**: Configure a print with one wheel base and eight wheel rungs. Ensure the slicing settings include 100% infill, supports everywhere, and a layer height of 0.16mm or lower. Refer to the .3MF file for printing orientations
 4. **Assembly**: Connect each of the rungs to the wheel base and secure each with M5 bolts and nuts, as specified in the Bill of Materials (BOM).
 5. **Testing**: Upon completion of assembly, conduct a test using a lab power supply. Ensure the availability of fans and a heating device.
-#### Prototype
 **NiTi Prototype Assembly Instructions**
 
 The NiTi prototype employs a straightforward gantry system, powered by a high torque stepper motor. A T8 leadscrew is incorporated for a simple mechanical advantage to apply stress to the NiTi wires. The assembly process is as follows:
