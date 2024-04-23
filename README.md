@@ -71,7 +71,15 @@ The testing for this project was relatively simple. Both the prototype and contr
 ## Flood Extras
 TBA
 ## Flood MCU
-To open and build the MCU code make sure that you have VS Code installed as referenced in the requirements above. Once this is complete make sure that you also have Platform IO installed. Once this is complete you can download the Platform IO directory from the repository. After you have the files open the directory in VS Code and navigate to the Platform IO extension. From there select Pick a folder and select the folder containing the platformio.ini file. From here you can access the main.cpp program from the src directory and with a plugged-in Arduino Nano all build environment tools should be accessible.
+**Instructions for Opening and Building MCU Code**
+1. **Install Visual Studio Code (VS Code)**: Ensure that you have VS Code installed on your system as per the prerequisites mentioned earlier.
+2. **Install Platform IO**: After successfully installing VS Code, proceed to install Platform IO.
+3. **Download the Platform IO Directory**: Once Platform IO is installed, download the Platform IO directory from the [FLOOD-MCU](https://github.com/Multi-Volt/Flood/tree/main/FLOOD-MCU) folder.
+4. **Open the Directory in VS Code**: After downloading the files, open the directory in VS Code.
+5. **Navigate to the Platform IO Extension**: Within VS Code, navigate to the Platform IO extension.
+6. **Select the Folder**: From the Platform IO extension, choose the 'Pick a folder' option and select the folder that contains the `platformio.ini` file.
+7. **Access the main.cpp Program**: You can now access the `main.cpp` program located in the `src` directory.
+8. **Ensure Arduino Nano is Plugged In**: To access all build environment tools, ensure that an Arduino Nano is plugged into your system.
 
 [(Back to top)](#table-of-contents)
 ## Flood Photos
