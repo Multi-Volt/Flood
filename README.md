@@ -26,7 +26,7 @@ This research endeavor, spearheaded by __Dr. John LaRocco__, __Dr. Qudsia Tahmin
 - [License](#license)
 ## <a  id ="models"></a>Models & Construction
 For this project, all pertinent 3D models are housed in the [FLOOD-3DF](https://github.com/Multi-Volt/Flood/tree/main/FLOOD-3DF) directory. This directory is organized into the following sub-directories for ease of navigation and access:
-1. **Protot**: This contains both STEP and STL files of the final prototype.
+1. **Proto**: This contains both STEP and STL files of the final prototype.
 2. **Control**: This includes the STEP and STL files for the Control Harvester.
 3. **Deprecated**: This houses the STL files of designs that are no longer in use.
 ### Details
