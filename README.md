@@ -47,23 +47,28 @@ Prototype-2 beat out Prototype-1 in the preliminary testing phase of this projec
 9. Mechanical assembly complete, see wiring diagram referenced below.
 ### Wiring
 For wiring and electronics please refer to the [FLOOD-Schematics](https://github.com/Multi-Volt/Flood/tree/main/FLOOD-Schematics) folder (currently under revision).
+
 [(Back to top)](#table-of-contents)
 ## Data
 Currently, all data for this project can be found within the [FLOOD-Data](https://github.com/Multi-Volt/Flood/tree/main/FLOOD-Data) folder. This folder currently contains:
 - Control (XLSX)
 - Prototype (XLSX)
 - Analysis (Jupyter Notebook)
+- 
 [(Back to top)](#table-of-contents)
 ## Datalogger
 This project currently uses a compiled Datalogger from a previous research project from this team. Currently, this binary is only compiled for Windows systems and is present within the [FLOOD-Datalogger](https://github.com/Multi-Volt/Flood/tree/main/FLOOD-Datalogger) folder.
+
 [(Back to top)](#table-of-contents)
 ## Flood Extras
 TBA
 ## Flood MCU
 To open and build the MCU code make sure that you have VS Code installed as referenced in the requirements above. Once this is complete make sure that you also have Platform IO installed. Once this is complete you can download the Platform IO directory from the repository. After you have the files open the directory in VS Code and navigate to the Platform IO extension. From there select Pick a folder and select the folder containing the platformio.ini file. From here you can access the main.cpp program from the src directory and with a plugged-in Arduino Nano all build environment tools should be accessible.
+
 [(Back to top)](#table-of-contents)
 ## Flood Photos
 TBA
 # License
 The MIT License (MIT) 2024 - [Dr. John LaRocco](https://github.com/javeharron/), [Dr. Qudsia Tahmina](https://github.com/tahminaq), [John Simonis](https://github.com/Multi-Volt/). Please have a look at the [LICENSE.md](LICENSE) for more details.
+
 [(Back to top)](#table-of-contents)
