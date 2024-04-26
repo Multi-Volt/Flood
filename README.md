@@ -34,8 +34,8 @@ For this project, all pertinent 3D models are housed in the [FLOOD-3DF](https://
 
 The Control Water Harvester utilizes a desiccant wheel design, leveraging a heat lamp to dry out pockets of desiccant and a fan to circulate heated air through the silica gel desiccant. The assembly process is as follows:
 1. **File Download**: Retrieve the STL files from [FLOOD-3DF](https://github.com/Multi-Volt/Flood/tree/main/FLOOD-3DF) and the .3MF file if you plan to print the design on a standard Ender 3 PRO.
-2. **Model Import**: Import the model or .3MF into an FDM 3D-Printer slicer such as [PrusaSlicer]( https://www.prusa3d.com/en/page/prusaslicer_424/) and select a material profile for PETG, which is necessary for higher temperatures.
-3. **Print Setup**: Configure a print with one wheel base and eight wheel rungs. Ensure the slicing settings include 100% infill, supports everywhere, and a layer height of 0.16mm or lower. Refer to the .3MF file for printing orientations
+2. **Setup**: Import the model or .3MF into an FDM 3D-Printer slicer such as [PrusaSlicer]( https://www.prusa3d.com/en/page/prusaslicer_424/) and select a material profile for PETG, which is necessary for higher temperatures.
+3. **Slicing**: Configure a print with one wheel base and eight wheel rungs. Ensure the slicing settings include 100% infill, supports everywhere, and a layer height of 0.16mm or lower. Refer to the .3MF file for printing orientations
 4. **Assembly**: Connect each of the rungs to the wheel base and secure each with M5 bolts and nuts, as specified in the Bill of Materials (BOM).
 5. **Testing**: Upon completion of assembly, conduct a test using a lab power supply. Ensure the availability of fans and a heating device.
 
@@ -43,8 +43,8 @@ The Control Water Harvester utilizes a desiccant wheel design, leveraging a heat
 
 The NiTi prototype employs a straightforward gantry system, powered by a high torque stepper motor. A T8 leadscrew is incorporated for a simple mechanical advantage to apply stress to the NiTi wires. The assembly process is as follows:
 1. **File Download**: Retrieve the STL files from [FLOOD-3DF](https://github.com/Multi-Volt/Flood/tree/main/FLOOD-3DF) and the .3MF file if you plan to print the design on a standard Ender 3 PRO.
-2. **Model Import**: Import the model or .3MF into an FDM 3D-Printer slicer such as [PrusaSlicer]( https://www.prusa3d.com/en/page/prusaslicer_424/). Select a material profile for PETG, which is necessary for higher temperatures.
-3. **Print Setup**: Configure a print with one of each part, except for the anchors, of which you should print two. Ensure the slicing settings include 100% infill, supports everywhere, and a layer height of 0.16mm or lower. Refer to the .3MF file for printing orientations
+2. **Setup**: Import the model or .3MF into an FDM 3D-Printer slicer such as [PrusaSlicer]( https://www.prusa3d.com/en/page/prusaslicer_424/). Select a material profile for PETG, which is necessary for higher temperatures.
+3. **Slicing**: Configure a print with one of each part, except for the anchors, of which you should print two. Ensure the slicing settings include 100% infill, supports everywhere, and a layer height of 0.16mm or lower. Refer to the .3MF file for printing orientations
 4. **Nut Selection**: Based on the dimensions of most of the nut pockets, identify suitable metric nuts.
 5. **Assembly**: Secure each of the items in accordance with the provided render.
 6. **Gantry Fastening**: Ensure the use of the appropriate metric T-nuts for fastening to the supplied gantry.
