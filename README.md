@@ -74,11 +74,11 @@ This project currently uses a compiled Datalogger from a previous research proje
 **Project Testing Procedure**
 
 The testing procedure for this project was executed with a straightforward approach. The following steps were undertaken:
-- **Placement of Assemblies**: Both the prototype and control assemblies were positioned within an enclosure equipped with a continuously operating humidifier.
-- **Data Collection**: Data was systematically collected at regular intervals of 10 seconds. Measurements, such as current, were averaged over this time frame.
-- **Noise and Outlier Mitigation**: The averaging of measurements over the specified time frame was implemented to effectively mitigate the impact of noise and potential outliers.
-- **Execution of Tests**: A total of three tests were conducted for both the control and the prototype assemblies.
-- **Duration of Tests**: The entire testing procedure was carried out over a cumulative duration of 30 minutes.
+- **Assemblies**: Both the prototype and control assemblies were positioned within an enclosure equipped with a continuously operating humidifier.
+- **Data Gathering**: Data was systematically collected at regular intervals of 10 seconds. Measurements, such as current, were averaged over this time frame.
+- **Noise Reduction**: The averaging of measurements over the specified time frame was implemented to effectively mitigate the impact of noise and potential outliers.
+- **Execution**: A total of three tests were conducted for both the control and the prototype assemblies.
+- **Duration**: The entire testing procedure was carried out over a cumulative duration of 30 minutes.
 - **Water Sensor**: The resistive water sensor was calibrated using a control amount of water for precision before any water was harvested.
 This methodical approach ensured a comprehensive evaluation of the project components under the specified conditions.
 
@@ -91,11 +91,11 @@ TBA
 1. **Install Visual Studio Code (VS Code)**: Ensure that you have VS Code installed on your system as per the prerequisites mentioned earlier.
 2. **Install Platform IO**: After successfully installing VS Code, proceed to install Platform IO.
 3. **Download the Platform IO Directory**: Once Platform IO is installed, download the Platform IO directory from the [FLOOD-MCU](https://github.com/Multi-Volt/Flood/tree/main/FLOOD-MCU) folder.
-4. **Open the Directory in VS Code**: After downloading the files, open the directory in VS Code.
+4. **Open the Platform IO Directory in VS Code**: After downloading the files, open the directory in VS Code.
 5. **Navigate to the Platform IO Extension**: Within VS Code, navigate to the Platform IO extension.
 6. **Select the Folder**: From the Platform IO extension, choose the 'Pick a folder' option and select the folder that contains the `platformio.ini` file.
 7. **Access the main.cpp Program**: You can now access the `main.cpp` program located in the `src` directory.
-8. **Ensure Arduino Nano is Plugged In**: To access all build environment tools, ensure that an Arduino Nano is plugged into your system.
+8. **Ensure Arduino Nano or Uno is Plugged In**: To access automatic build deployment, ensure that an Arduino Nano or Arduino Uno is plugged into your system.
 
 [(Back to top)](#table-of-contents)
 ## Flood Photos
