@@ -79,6 +79,7 @@ The testing procedure for this project was executed with a straightforward appro
 - **Noise and Outlier Mitigation**: The averaging of measurements over the specified time frame was implemented to effectively mitigate the impact of noise and potential outliers.
 - **Execution of Tests**: A total of three tests were conducted for both the control and the prototype assemblies.
 - **Duration of Tests**: The entire testing procedure was carried out over a cumulative duration of 30 minutes.
+- **Water Sensor**: The resistive water sensor was calibrated using a control amount of water for precision before any water was harvested.
 This methodical approach ensured a comprehensive evaluation of the project components under the specified conditions.
 
 [(Back to top)](#table-of-contents)
