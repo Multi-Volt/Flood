@@ -80,9 +80,13 @@ This methodical approach ensured a comprehensive evaluation of the project compo
 
 [(Back to top)](#table-of-contents)
 ## Flood Equations
-Dessicant Control Wheel = 
+Desiccant Control Wheel 
 ```math
 \log{\left(1.18^{x + 0.841 \cos{\left(x^{0.974} + 0.155 \right)} + \cos{\left(\left\lceil{x}\right\rceil^{0.553} \right)} \left\lfloor{e^{\text{erf}{\left(x \right)}}}\right\rfloor} + 0.550 x \right)}
+```
+NiTi Prototype 
+```math
+x \left(- 0.000675 x - 0.00581 \cos{\left(0.861 \text{erf}{\left(\cos{\left(0.632 x \right)} \right)} + 0.861 \left\lfloor{x - 0.855}\right\rfloor \right)} + 0.214\right)
 ```
 
 ## Flood MCU
