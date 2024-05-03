@@ -84,7 +84,7 @@ This methodical approach ensured a comprehensive evaluation of the project compo
 
 [(Back to top)](#table-of-contents)
 ## Flood Equations
-TBA
+$\log{\left(1.18^{x_{0} + 0.841 \cos{\left(x_{0}^{0.974} + 0.155 \right)} + \cos{\left(\left\lceil{x_{0}}\right\rceil^{0.553} \right)} \left\lfloor{e^{\operatorname{erf}{\left(x_{0} \right)}}}\right\rfloor} + 0.550 x_{0} \right)}$
 
 ## Flood MCU
 **Instructions for Opening and Building MCU Code**
