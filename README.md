@@ -92,6 +92,10 @@ Deprecated Control
 ```math
 \left\lceil{\log{\left(0.526 x + 2.07 \right)}}\right\rceil \text{erf}{\left(0.0790 x + 0.0790 \sin{\left(0.0924 x \left\lfloor{x + \sin{\left(x \cos{\left(\cos{\left(\text{erf}{\left(\cos{\left(\left(e^{x} + 2.07\right) \left\lceil{\cos{\left(2 e^{\left\lceil{x}\right\rceil + 1} \right)}}\right\rceil \right)} \right)} \right)} \right)} \right)}}\right\rfloor \right)} \right)}
 ```
+Deprecated Prototype
+```math
+\log{\left(1.08^{x + 2.39 e^{\sin{\left(x + 0.573 \right)}}} \text{erf}{\left(\sin{\left(\text{erf}{\left(\cos{\left(1.07^{\left\lceil{x + 1.00 \cos{\left(x + 0.771 \right)} + 0.349}\right\rceil} \right)} \right)} \right)} \right)} + 1.14^{x} \right)}^{0.720}
+```
 
 ## Flood MCU
 **Instructions for Opening and Building MCU Code**
