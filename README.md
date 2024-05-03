@@ -80,6 +80,10 @@ This methodical approach ensured a comprehensive evaluation of the project compo
 
 [(Back to top)](#table-of-contents)
 ## Flood Equations
+MSE
+```math
+text{MSE}=\frac{1}{n}\sum_{i=1}^{n}(f(x)-g(x))^{2}
+```
 Desiccant Control Wheel 
 ```math
 \log{\left(1.18^{x + 0.841 \cos{\left(x^{0.974} + 0.155 \right)} + \cos{\left(\left\lceil{x}\right\rceil^{0.553} \right)} \left\lfloor{e^{\text{erf}{\left(x \right)}}}\right\rfloor} + 0.550 x \right)}
