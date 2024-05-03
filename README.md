@@ -20,7 +20,7 @@ This research endeavor, conducted by __Dr. John LaRocco__, __Dr. Qudsia Tahmina_
 - [Data](#data)
 - [Datalogger](#datalogger)
 - [Testing](#testing)
-- [Flood Extras](#flood-extras)
+- [Flood Equations](#flood-equations)
 - [Flood MCU](#flood-mcu)
 - [Flood Photos](#flood-photos)
 - [License](#license)
@@ -60,10 +60,6 @@ Currently, all data for this project can be found within the [FLOOD-Data](https:
 - Control (XLSX)
 - Prototype (XLSX)
 - Analysis ([Jupyter Notebook](https://jupyter.org/))
-### Control Equation
-```math
-0.178 x + erf{\left(\cos{\left(0.0457 x + 0.283 \sin{\left(0.886 x + 0.886 erf{\left(\sin{\left(\sin{\left(x \right)} - 0.419 \right)} \right)} \right)} + 0.157 \cos{\left(x - 3.46 \right)} \right)} \right)} - 0.337
-```
 
 [(Back to top)](#table-of-contents)
 ## Datalogger
