@@ -10,7 +10,7 @@ This research endeavor, conducted by __Dr. John LaRocco__, __Dr. Qudsia Tahmina_
 - [Git](https://git-scm.com/downloads)
 - [Arduino IDE](https://www.arduino.cc/en/software)
 - [PySR](https://github.com/MilesCranmer/PySR)
-- Slicer | [PrusaSlicer]( https://www.prusa3d.com/en/page/prusaslicer_424/)
+- [PrusaSlicer]( https://www.prusa3d.com/en/page/prusaslicer_424/) or other slicer.
 ### Hardware
 - [FLOOD-BOM](https://github.com/Multi-Volt/Flood/tree/main/FLOOD-BOM/)
 - 3D-Printer
