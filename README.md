@@ -88,6 +88,10 @@ NiTi Prototype
 ```math
 x \left(- 0.000675 x - 0.00581 \cos{\left(0.861 \text{erf}{\left(\cos{\left(0.632 x \right)} \right)} + 0.861 \left\lfloor{x - 0.855}\right\rfloor \right)} + 0.214\right)
 ```
+Deprecated Control
+```math
+\left\lceil{\log{\left(0.526 x + 2.07 \right)}}\right\rceil \text{erf}{\left(0.0790 x + 0.0790 \sin{\left(0.0924 x \left\lfloor{x + \sin{\left(x \cos{\left(\cos{\left(\text{erf}{\left(\cos{\left(\left(e^{x} + 2.07\right) \left\lceil{\cos{\left(2 e^{\left\lceil{x}\right\rceil + 1} \right)}}\right\rceil \right)} \right)} \right)} \right)} \right)}}\right\rfloor \right)} \right)}
+```
 
 ## Flood MCU
 **Instructions for Opening and Building MCU Code**
