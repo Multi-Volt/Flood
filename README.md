@@ -99,7 +99,10 @@ TBA
 
 [(Back to top)](#table-of-contents)
 ## Flood Photos
-TBA
+For this project, all pertinent images are housed in the [FLOOD-PHOTOS](https://github.com/Multi-Volt/Flood/tree/main/FLOOD-PHOTOS) directory. This directory is organized into the following sub-directories for ease of navigation and access:
+1. **Proto**: This contains images for the final prototype.
+2. **Control**: This includes images for the Control Harvester.
+3. **Deprecated**: This houses the images for designs that are no longer in use.
 # License
 The MIT License (MIT) 2024 - [Dr. John LaRocco](https://github.com/javeharron/), [Dr. Qudsia Tahmina](https://github.com/tahminaq), [John Simonis](https://github.com/Multi-Volt/). Please have a look at the [LICENSE.md](LICENSE) for more details.
 
