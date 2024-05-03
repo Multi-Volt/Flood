@@ -82,7 +82,7 @@ This methodical approach ensured a comprehensive evaluation of the project compo
 ## Flood Equations
 MSE
 ```math
-text{MSE}=\frac{1}{n}\sum_{i=1}^{n}(f(x)-g(x))^{2}
+\text{MSE}=\frac{1}{n}\sum_{i=1}^{n}(f(x)-g(x))^{2}
 ```
 Desiccant Control Wheel 
 ```math
