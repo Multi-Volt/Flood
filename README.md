@@ -52,7 +52,14 @@ The NiTi prototype employs a straightforward gantry system, powered by a high to
 
 [(Back to top)](#table-of-contents)
 ### Wiring
-For wiring and electronics please refer to the [FLOOD-Schematics](https://github.com/Multi-Volt/Flood/tree/main/FLOOD-Schematics) folder (currently under revision).
+
+**Control Water Harvester**
+
+The control water harvester uses one PC fan and a generic ~150-watt heat lamp. It is mounted to a piece of wood and turns with heated air blowing through each rung filled with desiccant on the wheel. For an example setup please see [FLOOD-Photos](https://github.com/Multi-Volt/Flood/tree/main/FLOOD-Photos). Water recorded was done using the sensor setup found in [FLOOD-Schematics](https://github.com/Multi-Volt/Flood/tree/main/FLOOD-Schematics).
+
+**NiTi Water Harvester**
+
+The NiTi water harvester uses a generic 8-amp DC barrel jack power supply. It can be mounted to a piece of wood and during testing was controlled with an Atmega328p microcontroller running the [GRBL](https://github.com/grbl/grbl) firmware. For an example setup please see [FLOOD-Photos](https://github.com/Multi-Volt/Flood/tree/main/FLOOD-Photos). Water recorded was done using the sensor setup found in [FLOOD-Schematics](https://github.com/Multi-Volt/Flood/tree/main/FLOOD-Schematics).
 
 [(Back to top)](#table-of-contents)
 ## Data
