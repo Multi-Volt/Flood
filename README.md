@@ -82,32 +82,32 @@ This methodical approach ensured a comprehensive evaluation of the project compo
 ## Flood Equations
 These are equations fitted to the averaged data of each water harvester design. These equations were fitted using PySR and were designed to minimize the MSE between the two equations, if the Jupyter notebook file present in [FLOOD-Data](https://github.com/Multi-Volt/Flood/tree/main/FLOOD-Data/Analysis) is run again, each would have different results.
 
-MSE
+MSE:
 ```math
 \text{MSE}=\frac{1}{n}\sum_{i=1}^{n}(f(x)-g(x))^{2}
 ```
-Desiccant Control Wheel 
+Desiccant Control Wheel:
 ```math
 \log{\left(1.18^{x + 0.841 \cos{\left(x^{0.974} + 0.155 \right)} + \cos{\left(\left\lceil{x}\right\rceil^{0.553} \right)} \left\lfloor{e^{\text{erf}{\left(x \right)}}}\right\rfloor} + 0.550 x \right)}
 ```
 ```math
 \text{MSE}=2.695e-02
 ```
-NiTi Prototype 
+NiTi Prototype:
 ```math
 x \left(- 0.000675 x - 0.00581 \cos{\left(0.861 \text{erf}{\left(\cos{\left(0.632 x \right)} \right)} + 0.861 \left\lfloor{x - 0.855}\right\rfloor \right)} + 0.214\right)
 ```
 ```math
 \text{MSE}=2.507e-02
 ```
-Deprecated Control
+Deprecated Control:
 ```math
 \left\lceil{\log{\left(0.526 x + 2.07 \right)}}\right\rceil \text{erf}{\left(0.0790 x + 0.0790 \sin{\left(0.0924 x \left\lfloor{x + \sin{\left(x \cos{\left(\cos{\left(\text{erf}{\left(\cos{\left(\left(e^{x} + 2.07\right) \left\lceil{\cos{\left(2 e^{\left\lceil{x}\right\rceil + 1} \right)}}\right\rceil \right)} \right)} \right)} \right)} \right)}}\right\rfloor \right)} \right)}
 ```
 ```math
 \text{MSE}=8.403e-03
 ```
-Deprecated Prototype
+Deprecated Prototype:
 ```math
 \log{\left(1.08^{x + 2.39 e^{\sin{\left(x + 0.573 \right)}}} \text{erf}{\left(\sin{\left(\text{erf}{\left(\cos{\left(1.07^{\left\lceil{x + 1.00 \cos{\left(x + 0.771 \right)} + 0.349}\right\rceil} \right)} \right)} \right)} \right)} + 1.14^{x} \right)}^{0.720}
 ```
