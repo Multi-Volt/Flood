@@ -80,6 +80,7 @@ This methodical approach ensured a comprehensive evaluation of the project compo
 
 [(Back to top)](#table-of-contents)
 ## Flood Equations
+These are equations fitted to the averaged data of each water harvester design. These equations were fitted using PySR and were designed to minimize the MSE between the two equations, if the Jupyter notebook file present in [FLOOD-Data](https://github.com/Multi-Volt/Flood/tree/main/FLOOD-Data/Analysis) is run again, each would have different results.
 MSE
 ```math
 \text{MSE}=\frac{1}{n}\sum_{i=1}^{n}(f(x)-g(x))^{2}
